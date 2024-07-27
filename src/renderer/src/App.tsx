@@ -9,10 +9,10 @@ import TopBar from '@renderer/containers/TopBar'
 
 function App(): JSX.Element {
 
-  // const {setColorMode} = useColorMode()
-  // useEffect(() => {
-  //   setColorMode('dark')
-  // }, [setColorMode])
+  const {setColorMode} = useColorMode()
+  useEffect(() => {
+    setColorMode('dark')
+  }, [setColorMode])
 
 
 

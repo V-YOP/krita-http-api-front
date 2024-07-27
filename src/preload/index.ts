@@ -1,5 +1,5 @@
-import { contextBridge, ipcRenderer, session, webFrame  } from 'electron'
-import { electronAPI, exposeElectronAPI } from '@electron-toolkit/preload'
+import { ipcRenderer, webFrame  } from 'electron'
+import { exposeElectronAPI } from '@electron-toolkit/preload'
 
 exposeElectronAPI()
 

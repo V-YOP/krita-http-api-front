@@ -3,7 +3,6 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
-;import { electron } from 'process';
 ((async () => {
   const { activeWindow } = await import('active-win')
   console.log(activeWindow)
@@ -15,7 +14,6 @@ import icon from '../../resources/icon.png?asset'
     const primaryDisplay = screen.getPrimaryDisplay();
     const { width, height } = primaryDisplay.workAreaSize;
   
-    const PROD = process.env['ENV'] === 'prod'
   
     const mainWindow = new BrowserWindow({
       width, height,
@@ -50,23 +48,22 @@ import icon from '../../resources/icon.png?asset'
     mainWindow.setVisibleOnAllWorkspaces(true);
     mainWindow.setFullScreenable(false);
   
-    ipcMain.handle('get-screen-zoom-factor', (event) => {
+    ipcMain.handle('get-screen-zoom-factor', () => {
       return screen.getPrimaryDisplay().scaleFactor
     })
 
-    ipcMain.on('show-me', (event) => {
+    ipcMain.on('show-me', () => {
       // const win = BrowserWindow.fromWebContents(event.sender)
       // console.log('me show')
       // win?.showInactive()
     })
   
-    ipcMain.on('hide-me', (event) => {
+    ipcMain.on('hide-me', () => {
       // const win = BrowserWindow.fromWebContents(event.sender)
       // console.log('me hide')
       // win?.hide()
     })
   
-    let transparentMode = true
     ipcMain.on('toggle-transparent-mode', () => {
       
     })
@@ -113,9 +110,15 @@ import icon from '../../resources/icon.png?asset'
     const tray = new Tray(icon);
     const contextMenu = Menu.buildFromTemplate([
       {
-        label: '退出',
-        click: function () {
-          app.quit();
+        label: 'show',
+        click: () => {
+          BrowserWindow.getAllWindows()[0].show()
+        }
+      },
+      {
+        label: 'hide',
+        click: () => {
+          BrowserWindow.getAllWindows()[0].hide()
         }
       },
       {
@@ -123,7 +126,13 @@ import icon from '../../resources/icon.png?asset'
         click: function() {
           BrowserWindow.getAllWindows()[0].webContents.openDevTools()
         }
-      }
+      },
+      {
+        label: '退出',
+        click: function () {
+          app.quit();
+        }
+      },
     ]);
     tray.setToolTip('应用标题');
     tray.setContextMenu(contextMenu);
