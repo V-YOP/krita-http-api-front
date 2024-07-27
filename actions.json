@@ -1,0 +1,4457 @@
+{
+    "ok": true,
+    "data": {
+        "save_incremental_version": {
+            "shortcuts": "Ctrl+Alt+S",
+            "toolTip": "Save Incremental Version (Ctrl+Alt+S)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "save_incremental_backup": {
+            "shortcuts": "F4",
+            "toolTip": "Save Incremental Backup (F4)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "tablet_debugger": {
+            "shortcuts": "Ctrl+Shift+T",
+            "toolTip": "Toggle Tablet Debugger (Ctrl+Shift+T)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "create_template": {
+            "shortcuts": "",
+            "toolTip": "Create Template From Image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "create_copy": {
+            "shortcuts": "",
+            "toolTip": "Create Copy From Current Image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "open_resources_directory": {
+            "shortcuts": "",
+            "toolTip": "Opens a file browser at the location Krita saves resources such as brushes to.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotate_canvas_right": {
+            "shortcuts": "Ctrl+]",
+            "toolTip": "Rotate Canvas Right (Ctrl+])",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotate_canvas_left": {
+            "shortcuts": "Ctrl+[",
+            "toolTip": "Rotate Canvas Left (Ctrl+[)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "reset_canvas_rotation": {
+            "shortcuts": "",
+            "toolTip": "Reset Canvas Rotation",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wrap_around_mode": {
+            "shortcuts": "Shift+W",
+            "toolTip": "Wrap Around Mode (Shift+W)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "wrap_around_hv_axis": {
+            "shortcuts": "",
+            "toolTip": "Wrap Around Both Directions",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "wrap_around_h_axis": {
+            "shortcuts": "",
+            "toolTip": "Wrap Around Horizontally",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "wrap_around_v_axis": {
+            "shortcuts": "",
+            "toolTip": "Wrap Around Vertically",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "level_of_detail_mode": {
+            "shortcuts": "Shift+L",
+            "toolTip": "Instant Preview Mode (Shift+L)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "softProof": {
+            "shortcuts": "Ctrl+Y",
+            "toolTip": "Turns on Soft Proofing (Ctrl+Y)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "gamutCheck": {
+            "shortcuts": "Ctrl+Shift+Y",
+            "toolTip": "Turns on warnings for colors out of proofed gamut, needs soft proofing to be turned on. (Ctrl+Shift+Y)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "showStatusBar": {
+            "shortcuts": "",
+            "toolTip": "Show or hide the status bar",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "view_show_canvas_only": {
+            "shortcuts": "Tab",
+            "toolTip": "Show just the canvas or the whole window (Tab)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "ruler_pixel_multiple2": {
+            "shortcuts": "",
+            "toolTip": "Use multiple of 2 for pixel scale",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_ruler": {
+            "shortcuts": "",
+            "toolTip": "Show Rulers",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "rulers_track_mouse": {
+            "shortcuts": "",
+            "toolTip": "Rulers Track Pointer",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "zoom_to_100pct": {
+            "shortcuts": "Ctrl+0",
+            "toolTip": "Zoom to 100% (Ctrl+0)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_zoom_in": {
+            "shortcuts": "Ctrl++",
+            "toolTip": "Zoom In (Ctrl++)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_zoom_out": {
+            "shortcuts": "Ctrl+-",
+            "toolTip": "Zoom Out (Ctrl+-)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "zoom_to_fit": {
+            "shortcuts": "",
+            "toolTip": "Fit Canvas to View",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "zoom_to_fit_width": {
+            "shortcuts": "",
+            "toolTip": "Fit Canvas to View Width",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "zoom_to_fit_height": {
+            "shortcuts": "",
+            "toolTip": "Fit Canvas to View Height",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_zoom_to_fit": {
+            "shortcuts": "",
+            "toolTip": "Toggle Fit to View",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "reset_display": {
+            "shortcuts": "",
+            "toolTip": "Reset zoom, rotation, and mirroring to their default states.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_print_size": {
+            "shortcuts": "",
+            "toolTip": "Map the canvas display to print size, based on the image resolution.",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "settings_active_author": {
+            "shortcuts": "",
+            "toolTip": "Active Author Profile",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_pixel_grid": {
+            "shortcuts": "",
+            "toolTip": "Show Pixel Grid",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "toggle_fg_bg": {
+            "shortcuts": "X",
+            "toolTip": "Swap foreground and background colors (X)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "reset_fg_bg": {
+            "shortcuts": "D",
+            "toolTip": "Set foreground and background colors to black and white (D)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_brush_outline": {
+            "shortcuts": "",
+            "toolTip": "Disable the brush outline, or enable the previously used brush outline shape if already disabled",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "filter_apply_again": {
+            "shortcuts": "Ctrl+F",
+            "toolTip": "Apply Filter Again (Ctrl+F)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "filter_apply_reprompt": {
+            "shortcuts": "",
+            "toolTip": "Reapply Last Used Filter with Prompt for Configuration",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "adjust_filters": {
+            "shortcuts": "",
+            "toolTip": "Adjust",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_asc-cdl": {
+            "shortcuts": "",
+            "toolTip": "Slope, Offset, Power Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_autocontrast": {
+            "shortcuts": "",
+            "toolTip": "Auto Contrast",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "blur_filters": {
+            "shortcuts": "",
+            "toolTip": "Blur",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_blur": {
+            "shortcuts": "",
+            "toolTip": "Blur",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_burn": {
+            "shortcuts": "",
+            "toolTip": "Burn",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_colorbalance": {
+            "shortcuts": "Ctrl+B",
+            "toolTip": "Color Balance (Ctrl+B)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "color_filters": {
+            "shortcuts": "",
+            "toolTip": "Colors",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_colortoalpha": {
+            "shortcuts": "",
+            "toolTip": "Color to Alpha",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_colortransfer": {
+            "shortcuts": "",
+            "toolTip": "Color Transfer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_crosschannel": {
+            "shortcuts": "",
+            "toolTip": "Cross-channel adjustment Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_desaturate": {
+            "shortcuts": "Ctrl+Shift+U",
+            "toolTip": "Desaturate (Ctrl+Shift+U)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_dodge": {
+            "shortcuts": "",
+            "toolTip": "Dodge",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edge_filters": {
+            "shortcuts": "",
+            "toolTip": "Edge Detection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_edge detection": {
+            "shortcuts": "",
+            "toolTip": "Edge Detection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "emboss_filters": {
+            "shortcuts": "",
+            "toolTip": "Emboss",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_emboss": {
+            "shortcuts": "",
+            "toolTip": "Emboss with Variable Depth",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_emboss all directions": {
+            "shortcuts": "",
+            "toolTip": "Emboss in All Directions",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_emboss horizontal and vertical": {
+            "shortcuts": "",
+            "toolTip": "Emboss Horizontal & Vertical",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_emboss horizontal only": {
+            "shortcuts": "",
+            "toolTip": "Emboss Horizontal Only",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_emboss laplascian": {
+            "shortcuts": "",
+            "toolTip": "Emboss (Laplacian)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_emboss vertical only": {
+            "shortcuts": "",
+            "toolTip": "Emboss Vertical Only",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_gaussian blur": {
+            "shortcuts": "",
+            "toolTip": "Gaussian Blur",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_gaussianhighpass": {
+            "shortcuts": "",
+            "toolTip": "Gaussian High Pass Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "enhance_filters": {
+            "shortcuts": "",
+            "toolTip": "Enhance",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_gaussiannoisereducer": {
+            "shortcuts": "",
+            "toolTip": "Gaussian Noise Reduction",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "map_filters": {
+            "shortcuts": "",
+            "toolTip": "Map",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_gradientmap": {
+            "shortcuts": "",
+            "toolTip": "Gradient Map Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "artistic_filters": {
+            "shortcuts": "",
+            "toolTip": "Artistic",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_halftone": {
+            "shortcuts": "",
+            "toolTip": "Halftone Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_height to normal": {
+            "shortcuts": "",
+            "toolTip": "Height to Normal Map Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_hsvadjustment": {
+            "shortcuts": "Ctrl+U",
+            "toolTip": "HSV Adjustment (Ctrl+U)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_indexcolors": {
+            "shortcuts": "",
+            "toolTip": "Index Colors",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_invert": {
+            "shortcuts": "Ctrl+I",
+            "toolTip": "Invert (Ctrl+I)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_lens blur": {
+            "shortcuts": "",
+            "toolTip": "Lens Blur",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_levels": {
+            "shortcuts": "Ctrl+L",
+            "toolTip": "Levels (Ctrl+L)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_maximize": {
+            "shortcuts": "",
+            "toolTip": "Maximize Channel",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_mean removal": {
+            "shortcuts": "",
+            "toolTip": "Mean Removal",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_minimize": {
+            "shortcuts": "",
+            "toolTip": "Minimize Channel",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_motion blur": {
+            "shortcuts": "",
+            "toolTip": "Motion Blur",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "other_filters": {
+            "shortcuts": "",
+            "toolTip": "Other",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_noise": {
+            "shortcuts": "",
+            "toolTip": "Random Noise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_normalize": {
+            "shortcuts": "",
+            "toolTip": "Normalize Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_oilpaint": {
+            "shortcuts": "",
+            "toolTip": "Oilpaint",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_palettize": {
+            "shortcuts": "",
+            "toolTip": "Palettize Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_perchannel": {
+            "shortcuts": "Ctrl+M",
+            "toolTip": "Color Adjustment curves (Ctrl+M)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_phongbumpmap": {
+            "shortcuts": "",
+            "toolTip": "Phong Bumpmap",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_pixelize": {
+            "shortcuts": "",
+            "toolTip": "Pixelize",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_posterize": {
+            "shortcuts": "",
+            "toolTip": "Posterize",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_raindrops": {
+            "shortcuts": "",
+            "toolTip": "Raindrops",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_randompick": {
+            "shortcuts": "",
+            "toolTip": "Random Pick",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_resettransparent": {
+            "shortcuts": "",
+            "toolTip": "Reset Transparent",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_roundcorners": {
+            "shortcuts": "",
+            "toolTip": "Round Corners",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_sharpen": {
+            "shortcuts": "",
+            "toolTip": "Sharpen",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_smalltiles": {
+            "shortcuts": "",
+            "toolTip": "Small Tiles",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_threshold": {
+            "shortcuts": "",
+            "toolTip": "Threshold Filter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_unsharp": {
+            "shortcuts": "",
+            "toolTip": "Unsharp Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_wave": {
+            "shortcuts": "",
+            "toolTip": "Wave",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "krita_filter_waveletnoisereducer": {
+            "shortcuts": "",
+            "toolTip": "Wavelet Noise Reducer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edit_cut": {
+            "shortcuts": "Ctrl+X",
+            "toolTip": "Cut selection to clipboard (Ctrl+X)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edit_copy": {
+            "shortcuts": "Ctrl+C",
+            "toolTip": "Copy selection to clipboard (Ctrl+C)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edit_paste": {
+            "shortcuts": "Ctrl+V",
+            "toolTip": "Paste clipboard content (Ctrl+V)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_sharp": {
+            "shortcuts": "",
+            "toolTip": "Copy (sharp)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "cut_sharp": {
+            "shortcuts": "",
+            "toolTip": "Cut (sharp)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_new": {
+            "shortcuts": "Ctrl+Shift+N",
+            "toolTip": "Paste into New Image (Ctrl+Shift+N)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_at": {
+            "shortcuts": "Ctrl+Alt+V",
+            "toolTip": "Paste at cursor (Ctrl+Alt+V)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_into": {
+            "shortcuts": "",
+            "toolTip": "Paste into Active Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_as_reference": {
+            "shortcuts": "Ctrl+Shift+R",
+            "toolTip": "Paste as Reference Image (Ctrl+Shift+R)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_shape_style": {
+            "shortcuts": "",
+            "toolTip": "Paste Shape Style",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_merged": {
+            "shortcuts": "Ctrl+Shift+C",
+            "toolTip": "Copy merged (Ctrl+Shift+C)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "select_all": {
+            "shortcuts": "Ctrl+A",
+            "toolTip": "Select All (Ctrl+A)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "deselect": {
+            "shortcuts": "Ctrl+Shift+A",
+            "toolTip": "Deselect (Ctrl+Shift+A)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "clear": {
+            "shortcuts": "Del",
+            "toolTip": "Clear (Del)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "reselect": {
+            "shortcuts": "Ctrl+Shift+D",
+            "toolTip": "Reselect (Ctrl+Shift+D)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "invert_selection": {
+            "shortcuts": "Ctrl+Shift+I",
+            "toolTip": "Invert current selection (Ctrl+Shift+I)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_selection_to_new_layer": {
+            "shortcuts": "Ctrl+Alt+J",
+            "toolTip": "Copy Selection to New Layer (Ctrl+Alt+J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "cut_selection_to_new_layer": {
+            "shortcuts": "Ctrl+Shift+J",
+            "toolTip": "Cut Selection to New Layer (Ctrl+Shift+J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fill_selection_foreground_color": {
+            "shortcuts": "Shift+Backspace",
+            "toolTip": "Fill with Foreground Color (Shift+Backspace)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fill_selection_background_color": {
+            "shortcuts": "Backspace",
+            "toolTip": "Fill with Background Color (Backspace)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fill_selection_pattern": {
+            "shortcuts": "",
+            "toolTip": "Fill with Pattern",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fill_selection_foreground_color_opacity": {
+            "shortcuts": "Ctrl+Shift+Backspace",
+            "toolTip": "Fill with Foreground Color (Opacity) (Ctrl+Shift+Backspace)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fill_selection_background_color_opacity": {
+            "shortcuts": "Ctrl+Backspace",
+            "toolTip": "Fill with Background Color (Opacity) (Ctrl+Backspace)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fill_selection_pattern_opacity": {
+            "shortcuts": "",
+            "toolTip": "Fill with Pattern (Opacity)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "stroke_shapes": {
+            "shortcuts": "",
+            "toolTip": "Stroke selected shapes",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_display_selection": {
+            "shortcuts": "Ctrl+H",
+            "toolTip": "Display Selection (Ctrl+H)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "resizeimagetoselection": {
+            "shortcuts": "",
+            "toolTip": "Trim to Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edit_selection": {
+            "shortcuts": "",
+            "toolTip": "Edit Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_vector_selection": {
+            "shortcuts": "",
+            "toolTip": "Convert to Vector Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_raster_selection": {
+            "shortcuts": "",
+            "toolTip": "Convert to Raster Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_shapes_to_vector_selection": {
+            "shortcuts": "",
+            "toolTip": "Convert Shapes to Vector Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_selection_to_shape": {
+            "shortcuts": "",
+            "toolTip": "Convert to Shape",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle-selection-overlay-mode": {
+            "shortcuts": "",
+            "toolTip": "Toggle Selection Display Mode",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "stroke_selection": {
+            "shortcuts": "",
+            "toolTip": "Stroke selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_show_guides": {
+            "shortcuts": "",
+            "toolTip": "Show or hide guides",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_lock_guides": {
+            "shortcuts": "",
+            "toolTip": "Lock or unlock guides",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_to_guides": {
+            "shortcuts": "",
+            "toolTip": "Snap cursor to guides position",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "show_snap_options_popup": {
+            "shortcuts": "Shift+S",
+            "toolTip": "Show Snap Options Popup (Shift+S)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_snap_orthogonal": {
+            "shortcuts": "",
+            "toolTip": "Snap Orthogonal",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_node": {
+            "shortcuts": "",
+            "toolTip": "Snap Node",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_extension": {
+            "shortcuts": "",
+            "toolTip": "Snap Extension",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_intersection": {
+            "shortcuts": "",
+            "toolTip": "Snap Intersection",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_bounding_box": {
+            "shortcuts": "",
+            "toolTip": "Snap Bounding Box",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_image_bounds": {
+            "shortcuts": "",
+            "toolTip": "Snap Image Bounds",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "view_snap_image_center": {
+            "shortcuts": "",
+            "toolTip": "Snap Image Center",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "view_snap_to_pixel": {
+            "shortcuts": "",
+            "toolTip": "Snap Pixel",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "flatten_image": {
+            "shortcuts": "Ctrl+Shift+E",
+            "toolTip": "Flatten image (Ctrl+Shift+E)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "merge_layer": {
+            "shortcuts": "Ctrl+E",
+            "toolTip": "Merge with Layer Below (Ctrl+E)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "flatten_layer": {
+            "shortcuts": "",
+            "toolTip": "Flatten Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "save_groups_as_images": {
+            "shortcuts": "",
+            "toolTip": "Save Group Layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_group_to_animated": {
+            "shortcuts": "",
+            "toolTip": "Convert child layers into animation frames",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "resizeimagetolayer": {
+            "shortcuts": "",
+            "toolTip": "Trim to Current Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "trim_to_image": {
+            "shortcuts": "",
+            "toolTip": "Trim to Image Size",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "layer_style": {
+            "shortcuts": "",
+            "toolTip": "Layer Style",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_layer_style": {
+            "shortcuts": "",
+            "toolTip": "Copy Layer Style from the Current Node",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_layer_style": {
+            "shortcuts": "",
+            "toolTip": "Paste Layer Style into the Current Node",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorNodeX": {
+            "shortcuts": "",
+            "toolTip": "Mirror Layer Horizontally",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorNodeY": {
+            "shortcuts": "",
+            "toolTip": "Mirror Layer Vertically",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorAllNodesX": {
+            "shortcuts": "",
+            "toolTip": "Mirror All Layers Horizontally",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorAllNodesY": {
+            "shortcuts": "",
+            "toolTip": "Mirror All Layers Vertically",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activateNextLayer": {
+            "shortcuts": "PgUp",
+            "toolTip": "Activate next layer (PgUp)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activateNextSiblingLayer": {
+            "shortcuts": "",
+            "toolTip": "Activate next sibling layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activatePreviousLayer": {
+            "shortcuts": "PgDown",
+            "toolTip": "Activate previous layer (PgDown)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activatePreviousSiblingLayer": {
+            "shortcuts": "",
+            "toolTip": "Activate previous sibling layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "switchToPreviouslyActiveNode": {
+            "shortcuts": ";",
+            "toolTip": "Activate previously selected layer (;)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "save_node_as_image": {
+            "shortcuts": "",
+            "toolTip": "Save Layer/Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "save_vector_node_to_svg": {
+            "shortcuts": "",
+            "toolTip": "Save Vector Layer as SVG",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "duplicatelayer": {
+            "shortcuts": "Ctrl+J",
+            "toolTip": "Duplicate Layer or Mask (Ctrl+J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_layer_clipboard": {
+            "shortcuts": "",
+            "toolTip": "Copy layer to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "cut_layer_clipboard": {
+            "shortcuts": "",
+            "toolTip": "Cut layer to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_layer_from_clipboard": {
+            "shortcuts": "",
+            "toolTip": "Paste layer from clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "create_quick_group": {
+            "shortcuts": "Ctrl+G",
+            "toolTip": "Create a group layer containing selected layers (Ctrl+G)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "create_quick_clipping_group": {
+            "shortcuts": "Ctrl+Shift+G",
+            "toolTip": "Group selected layers and add a layer with clipped alpha channel (Ctrl+Shift+G)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "quick_ungroup": {
+            "shortcuts": "Ctrl+Alt+G",
+            "toolTip": "Remove grouping of the layers or remove one layer out of the group (Ctrl+Alt+G)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "select_all_layers": {
+            "shortcuts": "",
+            "toolTip": "Select all layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "select_visible_layers": {
+            "shortcuts": "",
+            "toolTip": "Select all visible layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "select_locked_layers": {
+            "shortcuts": "",
+            "toolTip": "Select all locked layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "select_invisible_layers": {
+            "shortcuts": "",
+            "toolTip": "Select all invisible layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "select_unlocked_layers": {
+            "shortcuts": "",
+            "toolTip": "Select all unlocked layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "new_from_visible": {
+            "shortcuts": "",
+            "toolTip": "New layer from visible",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pin_to_timeline": {
+            "shortcuts": "",
+            "toolTip": "If checked, layer becomes pinned to the timeline, making it visible even when inactive.",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "add_new_paint_layer": {
+            "shortcuts": "Ctrl+N",
+            "toolTip": "Add a new Paint Layer (Ctrl+N)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_group_layer": {
+            "shortcuts": "",
+            "toolTip": "Add a new Group Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_clone_layer": {
+            "shortcuts": "",
+            "toolTip": "Add a new Clone Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_shape_layer": {
+            "shortcuts": "Shift+Ins",
+            "toolTip": "Add a new Vector Layer (Shift+Ins)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_adjustment_layer": {
+            "shortcuts": "",
+            "toolTip": "Add a new Filter Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_fill_layer": {
+            "shortcuts": "",
+            "toolTip": "Add a new Fill Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_file_layer": {
+            "shortcuts": "",
+            "toolTip": "Add a new File Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_transparency_mask": {
+            "shortcuts": "",
+            "toolTip": "Add a new Transparency Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_filter_mask": {
+            "shortcuts": "",
+            "toolTip": "Add a new Filter Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_colorize_mask": {
+            "shortcuts": "",
+            "toolTip": "Add a new Colorize Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_transform_mask": {
+            "shortcuts": "",
+            "toolTip": "Add a new Transform Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_new_selection_mask": {
+            "shortcuts": "",
+            "toolTip": "Add a new Local Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_paint_layer": {
+            "shortcuts": "",
+            "toolTip": "to Paint Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_selection_mask": {
+            "shortcuts": "",
+            "toolTip": "to Selection Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_filter_mask": {
+            "shortcuts": "",
+            "toolTip": "to Filter Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_transparency_mask": {
+            "shortcuts": "",
+            "toolTip": "to Transparency Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_animated": {
+            "shortcuts": "",
+            "toolTip": "Convert layer into animation frames",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert_to_file_layer": {
+            "shortcuts": "",
+            "toolTip": "Saves out the layers into a new image and then references that image.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "isolate_active_layer": {
+            "shortcuts": "",
+            "toolTip": "Isolate Active Layer",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "isolate_active_group": {
+            "shortcuts": "",
+            "toolTip": "Isolate Active Group",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "toggle_layer_visibility": {
+            "shortcuts": "",
+            "toolTip": "Toggle layer visibility",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_layer_lock": {
+            "shortcuts": "",
+            "toolTip": "Toggle layer lock",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_layer_inherit_alpha": {
+            "shortcuts": "",
+            "toolTip": "Toggle layer alpha inheritance",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_layer_alpha_lock": {
+            "shortcuts": "",
+            "toolTip": "Toggle layer alpha",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "split_alpha_into_mask": {
+            "shortcuts": "",
+            "toolTip": "Alpha into Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "split_alpha_write": {
+            "shortcuts": "",
+            "toolTip": "Write as Alpha",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "split_alpha_save_merged": {
+            "shortcuts": "",
+            "toolTip": "Save Merged",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "import_layer_from_file": {
+            "shortcuts": "",
+            "toolTip": "Import Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "image_properties": {
+            "shortcuts": "",
+            "toolTip": "Properties",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "import_layer_as_paint_layer": {
+            "shortcuts": "",
+            "toolTip": "as Paint Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "import_layer_as_transparency_mask": {
+            "shortcuts": "",
+            "toolTip": "as Transparency Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "import_layer_as_filter_mask": {
+            "shortcuts": "",
+            "toolTip": "as Filter Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "import_layer_as_selection_mask": {
+            "shortcuts": "",
+            "toolTip": "as Selection Mask",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "image_color": {
+            "shortcuts": "",
+            "toolTip": "Change the background color of the image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_grid": {
+            "shortcuts": "Ctrl+Shift+'",
+            "toolTip": "Show Grid (Ctrl+Shift+')",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_snap_to_grid": {
+            "shortcuts": "Ctrl+Shift+;",
+            "toolTip": "Snap To Grid (Ctrl+Shift+;)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_toggle_painting_assistants": {
+            "shortcuts": "",
+            "toolTip": "Show Painting Assistants",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "view_toggle_assistant_previews": {
+            "shortcuts": "",
+            "toolTip": "Show Assistant Previews",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "view_toggle_reference_images": {
+            "shortcuts": "",
+            "toolTip": "Show Reference Images",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "make_brush_color_lighter": {
+            "shortcuts": "L",
+            "toolTip": "Make brush color lighter (L)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_darker": {
+            "shortcuts": "K",
+            "toolTip": "Make brush color darker (K)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_saturated": {
+            "shortcuts": "",
+            "toolTip": "Make brush color more saturated",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_desaturated": {
+            "shortcuts": "",
+            "toolTip": "Make brush color more desaturated",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "shift_brush_color_clockwise": {
+            "shortcuts": "",
+            "toolTip": "Shift brush color hue clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "shift_brush_color_counter_clockwise": {
+            "shortcuts": "",
+            "toolTip": "Shift brush color hue counter-clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_redder": {
+            "shortcuts": "",
+            "toolTip": "Make brush color more red",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_greener": {
+            "shortcuts": "",
+            "toolTip": "Make brush color more green",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_bluer": {
+            "shortcuts": "",
+            "toolTip": "Make brush color more blue",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_brush_color_yellower": {
+            "shortcuts": "",
+            "toolTip": "Make brush color more yellow",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "increase_opacity": {
+            "shortcuts": "O",
+            "toolTip": "Increase brush Opacity (O)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "decrease_opacity": {
+            "shortcuts": "I",
+            "toolTip": "Decrease brush Opacity (I)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "increase_flow": {
+            "shortcuts": "",
+            "toolTip": "Increase brush Flow",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "decrease_flow": {
+            "shortcuts": "",
+            "toolTip": "Decrease brush Flow",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "increase_fade": {
+            "shortcuts": "",
+            "toolTip": "Increase brush Fade",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "decrease_fade": {
+            "shortcuts": "",
+            "toolTip": "Decrease brush Fade",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "increase_scatter": {
+            "shortcuts": "",
+            "toolTip": "Increase brush Scatter strength",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "decrease_scatter": {
+            "shortcuts": "",
+            "toolTip": "Decrease brush Scatter strength",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirror_canvas": {
+            "shortcuts": "M",
+            "toolTip": "Mirror View (M)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirror_canvas_around_cursor": {
+            "shortcuts": "Alt+M",
+            "toolTip": "Mirror View Around Cursor (Alt+M)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirror_canvas_around_canvas": {
+            "shortcuts": "",
+            "toolTip": "Mirror View Around Canvas",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "patterns": {
+            "shortcuts": "",
+            "toolTip": "Patterns",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "gradients": {
+            "shortcuts": "",
+            "toolTip": "Gradients",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "dual": {
+            "shortcuts": "",
+            "toolTip": "Color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "erase_action": {
+            "shortcuts": "E",
+            "toolTip": "Set eraser mode (E)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "eraser_preset_action": {
+            "shortcuts": "",
+            "toolTip": "Toggle eraser preset",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "reload_preset_action": {
+            "shortcuts": "",
+            "toolTip": "Reload Original Preset",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "preserve_alpha": {
+            "shortcuts": "",
+            "toolTip": "Preserve Alpha",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirrorX-hideDecorations": {
+            "shortcuts": "",
+            "toolTip": "Hide Mirror X Line",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirrorX-lock": {
+            "shortcuts": "",
+            "toolTip": "Lock X Line",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirrorX-moveToCenter": {
+            "shortcuts": "",
+            "toolTip": "Move to Canvas Center X",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorY-hideDecorations": {
+            "shortcuts": "",
+            "toolTip": "Hide Mirror Y Line",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirrorY-lock": {
+            "shortcuts": "",
+            "toolTip": "Lock Y Line",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "mirrorY-moveToCenter": {
+            "shortcuts": "",
+            "toolTip": "Move to Canvas Center Y",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "hmirror_action": {
+            "shortcuts": "",
+            "toolTip": "Horizontal Mirror Tool",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "vmirror_action": {
+            "shortcuts": "",
+            "toolTip": "Vertical Mirror Tool",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "Next Blending Mode": {
+            "shortcuts": "Alt+Shift++",
+            "toolTip": "Next Blending Mode (Alt+Shift++)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Previous Blending Mode": {
+            "shortcuts": "Alt+Shift+-",
+            "toolTip": "Previous Blending Mode (Alt+Shift+-)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Normal Blending Mode": {
+            "shortcuts": "Alt+Shift+N",
+            "toolTip": "Select Normal Blending Mode (Alt+Shift+N)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Dissolve Blending Mode": {
+            "shortcuts": "Alt+Shift+I",
+            "toolTip": "Select Dissolve Blending Mode (Alt+Shift+I)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Behind Blending Mode": {
+            "shortcuts": "Alt+Shift+Q",
+            "toolTip": "Select Behind Blending Mode (Alt+Shift+Q)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Clear Blending Mode": {
+            "shortcuts": "Alt+Shift+R",
+            "toolTip": "Select Clear Blending Mode (Alt+Shift+R)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Darken Blending Mode": {
+            "shortcuts": "Alt+Shift+K",
+            "toolTip": "Select Darken Blending Mode (Alt+Shift+K)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Multiply Blending Mode": {
+            "shortcuts": "Alt+Shift+M",
+            "toolTip": "Select Multiply Blending Mode (Alt+Shift+M)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Color Burn Blending Mode": {
+            "shortcuts": "Alt+Shift+B",
+            "toolTip": "Select Color Burn Blending Mode (Alt+Shift+B)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Linear Burn Blending Mode": {
+            "shortcuts": "Alt+Shift+A",
+            "toolTip": "Select Linear Burn Blending Mode (Alt+Shift+A)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Lighten Blending Mode": {
+            "shortcuts": "Alt+Shift+G",
+            "toolTip": "Select Lighten Blending Mode (Alt+Shift+G)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Screen Blending Mode": {
+            "shortcuts": "Alt+Shift+S",
+            "toolTip": "Select Screen Blending Mode (Alt+Shift+S)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Color Dodge Blending Mode": {
+            "shortcuts": "Alt+Shift+D",
+            "toolTip": "Select Color Dodge Blending Mode (Alt+Shift+D)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Linear Dodge Blending Mode": {
+            "shortcuts": "Alt+Shift+W",
+            "toolTip": "Select Linear Dodge Blending Mode (Alt+Shift+W)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Overlay Blending Mode": {
+            "shortcuts": "Alt+Shift+O",
+            "toolTip": "Select Overlay Blending Mode (Alt+Shift+O)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Hard Overlay Blending Mode": {
+            "shortcuts": "Alt+Shift+P",
+            "toolTip": "Select Hard Overlay Blending Mode (Alt+Shift+P)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Soft Light Blending Mode": {
+            "shortcuts": "Alt+Shift+F",
+            "toolTip": "Select Soft Light Blending Mode (Alt+Shift+F)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Hard Light Blending Mode": {
+            "shortcuts": "Alt+Shift+H",
+            "toolTip": "Select Hard Light Blending Mode (Alt+Shift+H)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Vivid Light Blending Mode": {
+            "shortcuts": "Alt+Shift+V",
+            "toolTip": "Select Vivid Light Blending Mode (Alt+Shift+V)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Linear Light Blending Mode": {
+            "shortcuts": "Alt+Shift+J",
+            "toolTip": "Select Linear Light Blending Mode (Alt+Shift+J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Pin Light Blending Mode": {
+            "shortcuts": "Alt+Shift+Z",
+            "toolTip": "Select Pin Light Blending Mode (Alt+Shift+Z)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Hard Mix Blending Mode": {
+            "shortcuts": "Alt+Shift+L",
+            "toolTip": "Select Hard Mix Blending Mode (Alt+Shift+L)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Difference Blending Mode": {
+            "shortcuts": "Alt+Shift+E",
+            "toolTip": "Select Difference Blending Mode (Alt+Shift+E)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Exclusion Blending Mode": {
+            "shortcuts": "Alt+Shift+X",
+            "toolTip": "Select Exclusion Blending Mode (Alt+Shift+X)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Hue Blending Mode": {
+            "shortcuts": "Alt+Shift+U",
+            "toolTip": "Select Hue Blending Mode (Alt+Shift+U)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Saturation Blending Mode": {
+            "shortcuts": "Alt+Shift+T",
+            "toolTip": "Select Saturation Blending Mode (Alt+Shift+T)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Color Blending Mode": {
+            "shortcuts": "Alt+Shift+C",
+            "toolTip": "Select Color Blending Mode (Alt+Shift+C)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "Select Luminosity Blending Mode": {
+            "shortcuts": "Alt+Shift+Y",
+            "toolTip": "Select Luminosity Blending Mode (Alt+Shift+Y)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "composite_actions": {
+            "shortcuts": "",
+            "toolTip": "Brush composite",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "brushslider1": {
+            "shortcuts": "",
+            "toolTip": "Brush option slider 1",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "brushslider2": {
+            "shortcuts": "",
+            "toolTip": "Brush option slider 2",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "brushslider3": {
+            "shortcuts": "",
+            "toolTip": "Brush option slider 3",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "brushslider4": {
+            "shortcuts": "",
+            "toolTip": "Brush option slider 4",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "next_favorite_preset": {
+            "shortcuts": ",",
+            "toolTip": "Next Favourite Preset (,)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "previous_favorite_preset": {
+            "shortcuts": ".",
+            "toolTip": "Previous Favourite Preset (.)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "previous_preset": {
+            "shortcuts": "/",
+            "toolTip": "Switch to Previous Preset (/)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_brush_presets": {
+            "shortcuts": "F6",
+            "toolTip": "Show Brush Presets (F6)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirror_actions": {
+            "shortcuts": "",
+            "toolTip": "Mirror",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "workspaces": {
+            "shortcuts": "",
+            "toolTip": "Workspaces",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_brush_editor": {
+            "shortcuts": "F5",
+            "toolTip": "Show Brush Editor (F5)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "disable_pressure": {
+            "shortcuts": "",
+            "toolTip": "Use Pen Pressure",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "paintops": {
+            "shortcuts": "",
+            "toolTip": "Painter's Tools",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "chooseForegroundColor": {
+            "shortcuts": "",
+            "toolTip": "Choose Foreground Color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "chooseBackgroundColor": {
+            "shortcuts": "",
+            "toolTip": "Choose Background Color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "imagesize": {
+            "shortcuts": "Ctrl+Alt+I",
+            "toolTip": "Scale Image To New Size (Ctrl+Alt+I)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "canvassize": {
+            "shortcuts": "Ctrl+Alt+C",
+            "toolTip": "Resize Canvas (Ctrl+Alt+C)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "layersize": {
+            "shortcuts": "",
+            "toolTip": "Scale Layer to new Size",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "scaleAllLayers": {
+            "shortcuts": "",
+            "toolTip": "Scale All Layers to new Size",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selectionscale": {
+            "shortcuts": "",
+            "toolTip": "Scale",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "buginfo": {
+            "shortcuts": "",
+            "toolTip": "Show Krita log for bug reports.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "sysinfo": {
+            "shortcuts": "",
+            "toolTip": "Show system information for bug reports.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "crashlog": {
+            "shortcuts": "",
+            "toolTip": "Show crash log for bug reports.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "clones_array": {
+            "shortcuts": "",
+            "toolTip": "Clones Array",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "colorrange": {
+            "shortcuts": "",
+            "toolTip": "Select from Color Range",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selectopaque": {
+            "shortcuts": "",
+            "toolTip": "Select Opaque",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selectopaque_add": {
+            "shortcuts": "",
+            "toolTip": "Select Opaque (Add)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selectopaque_subtract": {
+            "shortcuts": "",
+            "toolTip": "Select Opaque (Subtract)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selectopaque_intersect": {
+            "shortcuts": "",
+            "toolTip": "Select Opaque (Intersect)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "imagecolorspaceconversion": {
+            "shortcuts": "",
+            "toolTip": "Convert Image Color Space",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "layercolorspaceconversion": {
+            "shortcuts": "",
+            "toolTip": "Convert Layer Color Space",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "dbexplorer": {
+            "shortcuts": "",
+            "toolTip": "Resources Cache Database",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "imagesplit": {
+            "shortcuts": "",
+            "toolTip": "Image Split",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "LayerGroupSwitcher/previous": {
+            "shortcuts": "",
+            "toolTip": "Move into previous group",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "LayerGroupSwitcher/next": {
+            "shortcuts": "",
+            "toolTip": "Move into next group",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "layersplit": {
+            "shortcuts": "",
+            "toolTip": "Split Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "EditLayerMetaData": {
+            "shortcuts": "",
+            "toolTip": "Edit metadata",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "growselection": {
+            "shortcuts": "",
+            "toolTip": "Grow Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "shrinkselection": {
+            "shortcuts": "",
+            "toolTip": "Shrink Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "borderselection": {
+            "shortcuts": "",
+            "toolTip": "Border Selection",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "featherselection": {
+            "shortcuts": "Shift+F6",
+            "toolTip": "Feather Selection (Shift+F6)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "smoothselection": {
+            "shortcuts": "",
+            "toolTip": "Smooth",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "offsetimage": {
+            "shortcuts": "",
+            "toolTip": "Offset Image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "offsetlayer": {
+            "shortcuts": "",
+            "toolTip": "Offset Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "QMic": {
+            "shortcuts": "",
+            "toolTip": "Start G'Mic-Qt",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "QMicAgain": {
+            "shortcuts": "",
+            "toolTip": "Apply the last G'Mic-Qt action again",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "manage_bundles": {
+            "shortcuts": "",
+            "toolTip": "Manage Resource Libraries",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "manage_resources": {
+            "shortcuts": "",
+            "toolTip": "Manage Resources",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateimage": {
+            "shortcuts": "",
+            "toolTip": "Rotate Image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateImageCW90": {
+            "shortcuts": "",
+            "toolTip": "Rotate Image 90\u00b0 to the Right",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateImage180": {
+            "shortcuts": "",
+            "toolTip": "Rotate Image 180\u00b0",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateImageCCW90": {
+            "shortcuts": "",
+            "toolTip": "Rotate Image 90\u00b0 to the Left",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorImageHorizontal": {
+            "shortcuts": "",
+            "toolTip": "Mirror Image Horizontally",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirrorImageVertical": {
+            "shortcuts": "",
+            "toolTip": "Mirror Image Vertically",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotatelayer": {
+            "shortcuts": "",
+            "toolTip": "Rotate Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateLayer180": {
+            "shortcuts": "",
+            "toolTip": "Rotate Layer 180\u00b0",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateLayerCW90": {
+            "shortcuts": "",
+            "toolTip": "Rotate Layer 90\u00b0 to the Right",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateLayerCCW90": {
+            "shortcuts": "",
+            "toolTip": "Rotate Layer 90\u00b0 to the Left",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateAllLayers": {
+            "shortcuts": "",
+            "toolTip": "Rotate All Layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateAllLayersCW90": {
+            "shortcuts": "",
+            "toolTip": "Rotate All Layers 90\u00b0 to the Right",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateAllLayersCCW90": {
+            "shortcuts": "",
+            "toolTip": "Rotate All Layers 90\u00b0 to the Left",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotateAllLayers180": {
+            "shortcuts": "",
+            "toolTip": "Rotate All Layers 180\u00b0",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "sample_screen_color": {
+            "shortcuts": "",
+            "toolTip": "Sample a color from the screen",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "sample_screen_color_real_canvas": {
+            "shortcuts": "",
+            "toolTip": "Sample a color from the screen while sampling a real color from the canvas if the cursor is over it",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "separate": {
+            "shortcuts": "",
+            "toolTip": "Separate Image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "shearimage": {
+            "shortcuts": "",
+            "toolTip": "Shear Image",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "shearlayer": {
+            "shortcuts": "",
+            "toolTip": "Shear Layer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "shearAllLayers": {
+            "shortcuts": "",
+            "toolTip": "Shear All Layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "waveletdecompose": {
+            "shortcuts": "",
+            "toolTip": "Wavelet Decompose",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolRectangle": {
+            "shortcuts": "Shift+R",
+            "toolTip": "Rectangle Tool (Shift+R)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "increase_brush_size": {
+            "shortcuts": "]",
+            "toolTip": "Increase Brush Size (])",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "decrease_brush_size": {
+            "shortcuts": "[",
+            "toolTip": "Decrease Brush Size ([)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotate_brush_tip_clockwise": {
+            "shortcuts": "",
+            "toolTip": "Rotate brush tip clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotate_brush_tip_clockwise_precise": {
+            "shortcuts": "",
+            "toolTip": "Rotate brush tip clockwise (precise)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotate_brush_tip_counter_clockwise": {
+            "shortcuts": "",
+            "toolTip": "Rotate brush tip counter-clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rotate_brush_tip_counter_clockwise_precise": {
+            "shortcuts": "",
+            "toolTip": "Rotate brush tip counter-clockwise (precise)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolPencil": {
+            "shortcuts": "",
+            "toolTip": "Freehand Path Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolEllipse": {
+            "shortcuts": "Shift+J",
+            "toolTip": "Ellipse Tool (Shift+J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolSmartPatch": {
+            "shortcuts": "",
+            "toolTip": "Smart Patch Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolSelectRectangular": {
+            "shortcuts": "Ctrl+R",
+            "toolTip": "Rectangular Selection Tool (Ctrl+R)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selection_tool_mode_add": {
+            "shortcuts": "",
+            "toolTip": "Selection Mode: Add",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selection_tool_mode_replace": {
+            "shortcuts": "",
+            "toolTip": "Selection Mode: Replace",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selection_tool_mode_subtract": {
+            "shortcuts": "",
+            "toolTip": "Selection Mode: Subtract",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "selection_tool_mode_intersect": {
+            "shortcuts": "",
+            "toolTip": "Selection Mode: Intersect",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolMeasure": {
+            "shortcuts": "",
+            "toolTip": "Measure the distance between two points",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolSelectElliptical": {
+            "shortcuts": "J",
+            "toolTip": "Elliptical Selection Tool (J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "InteractionTool": {
+            "shortcuts": "",
+            "toolTip": "Select Shapes Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_order_front": {
+            "shortcuts": "Ctrl+Shift+]",
+            "toolTip": "Bring to Front (Ctrl+Shift+])",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_order_raise": {
+            "shortcuts": "Ctrl+Alt+]",
+            "toolTip": "Raise (Ctrl+Alt+])",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_order_lower": {
+            "shortcuts": "Ctrl+Alt+[",
+            "toolTip": "Lower (Ctrl+Alt+[)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_order_back": {
+            "shortcuts": "Ctrl+Shift+[",
+            "toolTip": "Send to Back (Ctrl+Shift+[)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_align_horizontal_left": {
+            "shortcuts": "",
+            "toolTip": "Align Left",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_align_horizontal_center": {
+            "shortcuts": "",
+            "toolTip": "Horizontally Center",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_align_horizontal_right": {
+            "shortcuts": "",
+            "toolTip": "Align Right",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_align_vertical_top": {
+            "shortcuts": "",
+            "toolTip": "Align Top",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_align_vertical_center": {
+            "shortcuts": "",
+            "toolTip": "Vertically Center",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_align_vertical_bottom": {
+            "shortcuts": "",
+            "toolTip": "Align Bottom",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_horizontal_left": {
+            "shortcuts": "",
+            "toolTip": "Distribute left edges equidistantly",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_horizontal_center": {
+            "shortcuts": "",
+            "toolTip": "Distribute centers equidistantly horizontally",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_horizontal_right": {
+            "shortcuts": "",
+            "toolTip": "Distribute right edges equidistantly",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_horizontal_gaps": {
+            "shortcuts": "",
+            "toolTip": "Make horizontal gaps between objects equal",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_vertical_top": {
+            "shortcuts": "",
+            "toolTip": "Distribute top edges equidistantly",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_vertical_center": {
+            "shortcuts": "",
+            "toolTip": "Distribute centers equidistantly vertically",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_vertical_bottom": {
+            "shortcuts": "",
+            "toolTip": "Distribute bottom edges equidistantly",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_distribute_vertical_gaps": {
+            "shortcuts": "",
+            "toolTip": "Make vertical gaps between objects equal",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_group": {
+            "shortcuts": "",
+            "toolTip": "Group",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_ungroup": {
+            "shortcuts": "",
+            "toolTip": "Ungroup",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_transform_rotate_90_cw": {
+            "shortcuts": "",
+            "toolTip": "Rotate object 90\u00b0 clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_transform_rotate_90_ccw": {
+            "shortcuts": "",
+            "toolTip": "Rotate object 90\u00b0 counterclockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_transform_rotate_180": {
+            "shortcuts": "",
+            "toolTip": "Rotate object 180\u00b0",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_transform_mirror_horizontally": {
+            "shortcuts": "",
+            "toolTip": "Mirror object horizontally",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_transform_mirror_vertically": {
+            "shortcuts": "",
+            "toolTip": "Mirror object vertically",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_transform_reset": {
+            "shortcuts": "",
+            "toolTip": "Reset object transformations",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_unite": {
+            "shortcuts": "",
+            "toolTip": "Create boolean union of multiple objects",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_intersect": {
+            "shortcuts": "",
+            "toolTip": "Create boolean intersection of multiple objects",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_subtract": {
+            "shortcuts": "",
+            "toolTip": "Subtract multiple objects from the first selected one",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "object_split": {
+            "shortcuts": "",
+            "toolTip": "Split objects with multiple subpaths into multiple objects",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolPolygon": {
+            "shortcuts": "",
+            "toolTip": "Polygon Tool. Shift-mouseclick ends the polygon.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "undo_polygon_selection": {
+            "shortcuts": "Shift+Z",
+            "toolTip": "Undo Polygon Selection Points (Shift+Z)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "PanTool": {
+            "shortcuts": "",
+            "toolTip": "Pan Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolSelectContiguous": {
+            "shortcuts": "",
+            "toolTip": "Contiguous Selection Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KarbonCalligraphyTool": {
+            "shortcuts": "",
+            "toolTip": "Calligraphy",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "calligraphy_increase_width": {
+            "shortcuts": "",
+            "toolTip": "Calligraphy: increase width",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "calligraphy_decrease_width": {
+            "shortcuts": "",
+            "toolTip": "Calligraphy: decrease width",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "calligraphy_increase_angle": {
+            "shortcuts": "",
+            "toolTip": "Calligraphy: increase angle",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "calligraphy_decrease_angle": {
+            "shortcuts": "",
+            "toolTip": "Calligraphy: decrease angle",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "SvgTextTool": {
+            "shortcuts": "",
+            "toolTip": "Text Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaFill/KisToolFill": {
+            "shortcuts": "F",
+            "toolTip": "Fill a contiguous area of color with a color, or fill a selection. (F)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolLine": {
+            "shortcuts": "",
+            "toolTip": "Line Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "PathTool": {
+            "shortcuts": "",
+            "toolTip": "Edit Shapes Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-corner": {
+            "shortcuts": "",
+            "toolTip": "Corner point",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-smooth": {
+            "shortcuts": "",
+            "toolTip": "Smooth point",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-symmetric": {
+            "shortcuts": "",
+            "toolTip": "Symmetric Point",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-curve": {
+            "shortcuts": "",
+            "toolTip": "Make curve point",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-line": {
+            "shortcuts": "",
+            "toolTip": "Make line point",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathsegment-line": {
+            "shortcuts": "F",
+            "toolTip": "Segment to Line (F)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathsegment-curve": {
+            "shortcuts": "Shift+C",
+            "toolTip": "Segment to Curve (Shift+C)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-insert": {
+            "shortcuts": "Ins",
+            "toolTip": "Insert point (Ins)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-remove": {
+            "shortcuts": "Backspace",
+            "toolTip": "Remove point (Backspace)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "path-break-point": {
+            "shortcuts": "",
+            "toolTip": "Break at point",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "path-break-segment": {
+            "shortcuts": "",
+            "toolTip": "Break at segment",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-join": {
+            "shortcuts": "J",
+            "toolTip": "Join with segment (J)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pathpoint-merge": {
+            "shortcuts": "",
+            "toolTip": "Merge points",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "convert-to-path": {
+            "shortcuts": "P",
+            "toolTip": "To Path (P)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolTransform": {
+            "shortcuts": "Ctrl+T",
+            "toolTip": "Transform a layer or a selection (Ctrl+T)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-up": {
+            "shortcuts": "Up",
+            "toolTip": "Move up (Up)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-down": {
+            "shortcuts": "Down",
+            "toolTip": "Move down (Down)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-left": {
+            "shortcuts": "Left",
+            "toolTip": "Move left (Left)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-right": {
+            "shortcuts": "Right",
+            "toolTip": "Move right (Right)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-up-more": {
+            "shortcuts": "Shift+Up",
+            "toolTip": "Move up more (Shift+Up)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-down-more": {
+            "shortcuts": "Shift+Down",
+            "toolTip": "Move down more (Shift+Down)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-left-more": {
+            "shortcuts": "Shift+Left",
+            "toolTip": "Move left more (Shift+Left)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-move-right-more": {
+            "shortcuts": "Shift+Right",
+            "toolTip": "Move right more (Shift+Right)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaFill/KisToolGradient": {
+            "shortcuts": "G",
+            "toolTip": "Draw a gradient. (G)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolEncloseAndFill": {
+            "shortcuts": "",
+            "toolTip": "Enclose and Fill Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "ZoomTool": {
+            "shortcuts": "",
+            "toolTip": "Zoom Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolMultiBrush": {
+            "shortcuts": "Q",
+            "toolTip": "Multibrush Tool (Q)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set_no_brush_smoothing": {
+            "shortcuts": "",
+            "toolTip": "Brush Smoothing: Disabled",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set_simple_brush_smoothing": {
+            "shortcuts": "",
+            "toolTip": "Brush Smoothing: Basic",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set_weighted_brush_smoothing": {
+            "shortcuts": "",
+            "toolTip": "Brush Smoothing: Weighted",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set_stabilizer_brush_smoothing": {
+            "shortcuts": "",
+            "toolTip": "Brush Smoothing: Stabilizer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_assistant": {
+            "shortcuts": "Ctrl+Shift+L",
+            "toolTip": "Toggle Snap to Assistants (Ctrl+Shift+L)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "KisToolSelectMagnetic": {
+            "shortcuts": "",
+            "toolTip": "Magnetic Curve Selection Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolLazyBrush": {
+            "shortcuts": "",
+            "toolTip": "Colorize Mask Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaSelected/KisToolColorSampler": {
+            "shortcuts": "P",
+            "toolTip": "Sample a color from the image or current layer (P)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolPath": {
+            "shortcuts": "",
+            "toolTip": "Bezier Curve Tool. Shift-mouseclick or double-click ends the curve.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolCrop": {
+            "shortcuts": "C",
+            "toolTip": "Crop the image to an area (C)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "ToolReferenceImages": {
+            "shortcuts": "",
+            "toolTip": "Reference Images Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaTransform/KisToolMove": {
+            "shortcuts": "T",
+            "toolTip": "Move a layer (T)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "movetool-show-coordinates": {
+            "shortcuts": "Ctrl+Alt+Shift+C",
+            "toolTip": "Show absolute coordinates and offset while move action (Ctrl+Alt+Shift+C)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "KisToolSelectPolygonal": {
+            "shortcuts": "",
+            "toolTip": "Polygonal Selection Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolSelectSimilar": {
+            "shortcuts": "",
+            "toolTip": "Similar Color Selection Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolPolyline": {
+            "shortcuts": "",
+            "toolTip": "Polyline Tool. Shift-mouseclick ends the polyline.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolSelectPath": {
+            "shortcuts": "",
+            "toolTip": "Bezier Curve Selection Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolDyna": {
+            "shortcuts": "",
+            "toolTip": "Dynamic Brush Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisAssistantTool": {
+            "shortcuts": "",
+            "toolTip": "Assistant Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KisToolSelectOutline": {
+            "shortcuts": "",
+            "toolTip": "Freehand Selection Tool",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "KritaShape/KisToolBrush": {
+            "shortcuts": "B",
+            "toolTip": "Freehand Brush Tool (B)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_scalar_keyframes": {
+            "shortcuts": "",
+            "toolTip": "Adds keyframe to control scalar property",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_scalar_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Removes the selected scalar keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "interpolation_constant": {
+            "shortcuts": "",
+            "toolTip": "Hold constant value. No interpolation.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "interpolation_linear": {
+            "shortcuts": "",
+            "toolTip": "Linear interpolation.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "interpolation_bezier": {
+            "shortcuts": "",
+            "toolTip": "Bezier curve interpolation.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "tangents_sharp": {
+            "shortcuts": "",
+            "toolTip": "Sharp interpolation tangents.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "tangents_smooth": {
+            "shortcuts": "",
+            "toolTip": "Smooth interpolation tangents.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "zoom_to_fit_range": {
+            "shortcuts": "",
+            "toolTip": "Zoom view to fit channel range.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "zoom_to_fit_curve": {
+            "shortcuts": "",
+            "toolTip": "Zoom view to fit curve.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "drop_frames": {
+            "shortcuts": "",
+            "toolTip": "Drop Frames, enable to preserve playback timing.",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "show-global-selection-mask": {
+            "shortcuts": "",
+            "toolTip": "Shows global selection as a usual selection mask in <interface>Layers</interface> docker",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "RenameCurrentLayer": {
+            "shortcuts": "F2",
+            "toolTip": "Rename current layer (F2)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "layer_properties": {
+            "shortcuts": "F3",
+            "toolTip": "Properties (F3)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_layer": {
+            "shortcuts": "Shift+Del",
+            "toolTip": "Remove Layer (Shift+Del)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "move_layer_up": {
+            "shortcuts": "Ctrl+PgUp",
+            "toolTip": "Move Layer or Mask Up (Ctrl+PgUp)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "move_layer_down": {
+            "shortcuts": "Ctrl+PgDown",
+            "toolTip": "Move Layer or Mask Down (Ctrl+PgDown)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set-copy-from": {
+            "shortcuts": "",
+            "toolTip": "Set the source for the selected clone layer(s).",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_layer_soloing": {
+            "shortcuts": "",
+            "toolTip": "Toggle layer soloing, temporarily disabling visibility of all non-child layers.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_onion_skin": {
+            "shortcuts": "",
+            "toolTip": "Toggle onion skin",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "create_snapshot": {
+            "shortcuts": "",
+            "toolTip": "Create Snapshot",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "switchto_snapshot": {
+            "shortcuts": "",
+            "toolTip": "Switch to selected snapshot",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_snapshot": {
+            "shortcuts": "",
+            "toolTip": "Remove Selected Snapshot",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_column_left": {
+            "shortcuts": "",
+            "toolTip": "Insert column to the left of selection, moving the tail of animation to the right",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_column_right": {
+            "shortcuts": "",
+            "toolTip": "Insert column to the right of selection, moving the tail of animation to the right",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_multiple_columns": {
+            "shortcuts": "",
+            "toolTip": "Insert several columns based on user parameters.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_columns_and_pull": {
+            "shortcuts": "",
+            "toolTip": "Remove columns moving the tail of animation to the left",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_columns": {
+            "shortcuts": "",
+            "toolTip": "Remove columns without moving anything around",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_hold_column": {
+            "shortcuts": "",
+            "toolTip": "Insert a hold column into the frame at the current position",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_multiple_hold_columns": {
+            "shortcuts": "",
+            "toolTip": "Insert N hold columns into the frame at the current position",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_hold_column": {
+            "shortcuts": "",
+            "toolTip": "Remove a hold column from the frame at the current position",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_multiple_hold_columns": {
+            "shortcuts": "",
+            "toolTip": "Remove N hold columns from the frame at the current position",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirror_columns": {
+            "shortcuts": "",
+            "toolTip": "Mirror columns' position",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "clear_animation_cache": {
+            "shortcuts": "",
+            "toolTip": "Clear entire animation cache. Useful for debugging.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_columns_to_clipboard": {
+            "shortcuts": "",
+            "toolTip": "Copy columns to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "cut_columns_to_clipboard": {
+            "shortcuts": "",
+            "toolTip": "Cut columns to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_columns_from_clipboard": {
+            "shortcuts": "",
+            "toolTip": "Paste columns from clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_blank_frame": {
+            "shortcuts": "",
+            "toolTip": "Add blank frame",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "add_duplicate_frame": {
+            "shortcuts": "",
+            "toolTip": "Add duplicate frame",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_keyframe_left": {
+            "shortcuts": "",
+            "toolTip": "Insert keyframes to the left of selection, moving the tail of animation to the right.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_keyframe_right": {
+            "shortcuts": "",
+            "toolTip": "Insert keyframes to the right of selection, moving the tail of animation to the right.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_multiple_keyframes": {
+            "shortcuts": "",
+            "toolTip": "Insert several keyframes based on user parameters.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_frames_and_pull": {
+            "shortcuts": "",
+            "toolTip": "Remove keyframes moving the tail of animation to the left",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_frames": {
+            "shortcuts": "",
+            "toolTip": "Remove keyframes without moving anything around",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_hold_frame": {
+            "shortcuts": "",
+            "toolTip": "Insert a hold frame after every keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "insert_multiple_hold_frames": {
+            "shortcuts": "",
+            "toolTip": "Insert N hold frames after every keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_hold_frame": {
+            "shortcuts": "",
+            "toolTip": "Remove a hold frame after every keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "remove_multiple_hold_frames": {
+            "shortcuts": "",
+            "toolTip": "Remove N hold frames after every keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "mirror_frames": {
+            "shortcuts": "",
+            "toolTip": "Mirror frames' position",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_frames": {
+            "shortcuts": "",
+            "toolTip": "Copy frames to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "copy_frames_as_clones": {
+            "shortcuts": "",
+            "toolTip": "Clone frames to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "make_clones_unique": {
+            "shortcuts": "",
+            "toolTip": "Convert clones to unique keyframe instances.",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "cut_frames": {
+            "shortcuts": "",
+            "toolTip": "Cut frames to clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "paste_frames": {
+            "shortcuts": "",
+            "toolTip": "Paste frames from clipboard",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set_start_time": {
+            "shortcuts": "",
+            "toolTip": "Set Start Time",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "set_end_time": {
+            "shortcuts": "",
+            "toolTip": "Set End Time",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "update_playback_range": {
+            "shortcuts": "",
+            "toolTip": "Update Playback Range",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "toggle_playback": {
+            "shortcuts": "",
+            "toolTip": "Play / pause animation",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "stop_playback": {
+            "shortcuts": "",
+            "toolTip": "Stop animation",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "previous_frame": {
+            "shortcuts": "",
+            "toolTip": "Change time to previous frame",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "next_frame": {
+            "shortcuts": "",
+            "toolTip": "Change time to next frame",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "previous_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Change time to previous keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "next_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Change time to next keyframe",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "previous_matching_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Change time to previous keyframe of the same color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "next_matching_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Change time to next keyframe of the same color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "previous_unfiltered_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Change time to previous keyframe that has visible onion skin",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "next_unfiltered_keyframe": {
+            "shortcuts": "",
+            "toolTip": "Change time to next keyframe that has visible onion skin",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "first_frame": {
+            "shortcuts": "",
+            "toolTip": "First Frame",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "last_frame": {
+            "shortcuts": "",
+            "toolTip": "Last Frame",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "auto_key": {
+            "shortcuts": "",
+            "toolTip": "Auto Frame Mode",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "show_wg_color_selector": {
+            "shortcuts": "Shift+O",
+            "toolTip": "Show color selector (Shift+O)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_wg_shade_selector": {
+            "shortcuts": "",
+            "toolTip": "Show shade selector",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_wg_mypaint_selector": {
+            "shortcuts": "",
+            "toolTip": "Show MyPaint selector",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_wg_color_history": {
+            "shortcuts": "",
+            "toolTip": "Show color history",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wgcs_lighten_color": {
+            "shortcuts": "",
+            "toolTip": "Increase value, lightness, intensity or luma of the selected color, depending on selected color model",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wgcs_darken_color": {
+            "shortcuts": "",
+            "toolTip": "Decreases value, lightness, intensity or luma of the selected color, depending on selected color model",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wgcs_increase_saturation": {
+            "shortcuts": "",
+            "toolTip": "Increase saturation of the selected color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wgcs_decrease_saturation": {
+            "shortcuts": "",
+            "toolTip": "Decrease saturation of the selected color",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wgcs_shift_hue_clockwise": {
+            "shortcuts": "",
+            "toolTip": "Shift hue of the selected color clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "wgcs_shift_hue_counterclockwise": {
+            "shortcuts": "",
+            "toolTip": "Shift hue of the selected color counter-clockwise",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_new": {
+            "shortcuts": "",
+            "toolTip": "Create new document",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_open": {
+            "shortcuts": "Ctrl+O",
+            "toolTip": "Open an existing document (Ctrl+O)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_quit": {
+            "shortcuts": "Ctrl+Q",
+            "toolTip": "Quit application (Ctrl+Q)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "options_configure_toolbars": {
+            "shortcuts": "",
+            "toolTip": "Configure Toolbars",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "fullscreen": {
+            "shortcuts": "Ctrl+Shift+F",
+            "toolTip": "Display the window in full screen (Ctrl+Shift+F)",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "file_open_recent": {
+            "shortcuts": "",
+            "toolTip": "Open a document which was recently opened",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_save": {
+            "shortcuts": "Ctrl+S",
+            "toolTip": "Save",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_save_as": {
+            "shortcuts": "Ctrl+Shift+S",
+            "toolTip": "Save document under a new name (Ctrl+Shift+S)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edit_undo": {
+            "shortcuts": "Ctrl+Z",
+            "toolTip": "Undo last action (Ctrl+Z)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "edit_redo": {
+            "shortcuts": "Ctrl+Shift+Z",
+            "toolTip": "Redo last undone action (Ctrl+Shift+Z)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_import_animation": {
+            "shortcuts": "",
+            "toolTip": "Import animation frames",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_import_video_animation": {
+            "shortcuts": "",
+            "toolTip": "Import video animation",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "render_animation": {
+            "shortcuts": "",
+            "toolTip": "Render Animation to GIF, Image Sequence or Video",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "render_animation_again": {
+            "shortcuts": "",
+            "toolTip": "Render Animation Again",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_close_all": {
+            "shortcuts": "Ctrl+Shift+W",
+            "toolTip": "Close All (Ctrl+Shift+W)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_import_file": {
+            "shortcuts": "",
+            "toolTip": "Open existing Document as Untitled Document",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_export_file": {
+            "shortcuts": "",
+            "toolTip": "Export",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_export_advanced": {
+            "shortcuts": "",
+            "toolTip": "Advanced Export",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_documentinfo": {
+            "shortcuts": "",
+            "toolTip": "Document Information",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "theme_menu": {
+            "shortcuts": "",
+            "toolTip": "Themes",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_toggledockers": {
+            "shortcuts": "",
+            "toolTip": "Show Dockers",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "reset_configurations": {
+            "shortcuts": "",
+            "toolTip": "Reset All Settings to Default",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_detached_canvas": {
+            "shortcuts": "",
+            "toolTip": "Show the canvas on a separate window",
+            "statusTip": "",
+            "checkable": true,
+            "checked": false
+        },
+        "view_toggledockertitlebars": {
+            "shortcuts": "",
+            "toolTip": "Show Docker Titlebars",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "settings_dockers_menu": {
+            "shortcuts": "",
+            "toolTip": "Dockers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "window": {
+            "shortcuts": "",
+            "toolTip": "Window",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "style_menu": {
+            "shortcuts": "",
+            "toolTip": "Styles",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "windows_cascade": {
+            "shortcuts": "",
+            "toolTip": "Cascade",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "windows_tile": {
+            "shortcuts": "",
+            "toolTip": "Tile",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "windows_next": {
+            "shortcuts": "",
+            "toolTip": "Next",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "windows_previous": {
+            "shortcuts": "",
+            "toolTip": "Previous",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_newwindow": {
+            "shortcuts": "",
+            "toolTip": "New Window",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_close": {
+            "shortcuts": "Ctrl+W",
+            "toolTip": "Close (Ctrl+W)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "file_sessions": {
+            "shortcuts": "",
+            "toolTip": "Open session manager",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "command_bar_open": {
+            "shortcuts": "Ctrl+Return",
+            "toolTip": "Open the command bar to search through actions. (Ctrl+Return)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "options_configure": {
+            "shortcuts": "",
+            "toolTip": "Configure Krita",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "expanding_spacer_0": {
+            "shortcuts": "",
+            "toolTip": "Expanding Spacer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "expanding_spacer_1": {
+            "shortcuts": "",
+            "toolTip": "Expanding Spacer",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "help_contents": {
+            "shortcuts": "",
+            "toolTip": "Krita Handbook",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "help_report_bug": {
+            "shortcuts": "",
+            "toolTip": "Report Bug",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "switch_application_language": {
+            "shortcuts": "",
+            "toolTip": "Switch Application Language",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "help_about_app": {
+            "shortcuts": "",
+            "toolTip": "About Krita",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "help_about_kde": {
+            "shortcuts": "",
+            "toolTip": "About KDE",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "PluginDevTools": {
+            "shortcuts": "",
+            "toolTip": "PluginDevTools",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "kanvasbuddy": {
+            "shortcuts": "",
+            "toolTip": "KanvasBuddy",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pykrita_yuuki_krita_helper_create_sketch": {
+            "shortcuts": "",
+            "toolTip": "Create Sketch",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pykrita_yuuki_krita_helper_blending_mode_test": {
+            "shortcuts": "",
+            "toolTip": "Blending Mode Test",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pykrita_yuuki_krita_helper_trigger_floating_docker": {
+            "shortcuts": "`",
+            "toolTip": "Opens a file browser at the location Krita saves resources such as brushes to. (`)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pykrita_yuuki_krita_helper_save_floating_docker": {
+            "shortcuts": "",
+            "toolTip": "Save floating docker Info",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "pykrita_yuuki_krita_helper_toggle_floating_docker_toolbar": {
+            "shortcuts": "",
+            "toolTip": "toggle_floating_docker",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_helper_extension_add_overview": {
+            "shortcuts": "",
+            "toolTip": "Add Overview View",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_helper_extension_minimize_all": {
+            "shortcuts": "",
+            "toolTip": "Minimize All Views",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_helper_extension_close_duplicate_views": {
+            "shortcuts": "",
+            "toolTip": "Close Duplicate Views",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "color_space": {
+            "shortcuts": "",
+            "toolTip": "Color Space",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "export_layers": {
+            "shortcuts": "",
+            "toolTip": "Export Layers",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "filter_manager": {
+            "shortcuts": "",
+            "toolTip": "Filter Manager",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "plugin_importer_file": {
+            "shortcuts": "",
+            "toolTip": "Import Python Plugin from File",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "plugin_importer_web": {
+            "shortcuts": "",
+            "toolTip": "Import Python Plugin from Web",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "python_scripter": {
+            "shortcuts": "",
+            "toolTip": "Scripter",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "ten_brushes": {
+            "shortcuts": "",
+            "toolTip": "Ten Brushes",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_1": {
+            "shortcuts": "Alt+1",
+            "toolTip": " (Alt+1)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_2": {
+            "shortcuts": "Alt+2",
+            "toolTip": " (Alt+2)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_3": {
+            "shortcuts": "Alt+3",
+            "toolTip": " (Alt+3)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_4": {
+            "shortcuts": "Alt+4",
+            "toolTip": " (Alt+4)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_5": {
+            "shortcuts": "Alt+5",
+            "toolTip": " (Alt+5)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_6": {
+            "shortcuts": "Alt+6",
+            "toolTip": " (Alt+6)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_7": {
+            "shortcuts": "Alt+7",
+            "toolTip": " (Alt+7)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_8": {
+            "shortcuts": "Alt+8",
+            "toolTip": " (Alt+8)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_9": {
+            "shortcuts": "Alt+9",
+            "toolTip": " (Alt+9)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "activate_preset_0": {
+            "shortcuts": "Alt+0",
+            "toolTip": " (Alt+0)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "ten_scripts": {
+            "shortcuts": "",
+            "toolTip": "Ten Scripts",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_1": {
+            "shortcuts": "Ctrl+Shift+1",
+            "toolTip": " (Ctrl+Shift+1)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_2": {
+            "shortcuts": "Ctrl+Shift+2",
+            "toolTip": " (Ctrl+Shift+2)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_3": {
+            "shortcuts": "Ctrl+Shift+3",
+            "toolTip": " (Ctrl+Shift+3)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_4": {
+            "shortcuts": "Ctrl+Shift+4",
+            "toolTip": " (Ctrl+Shift+4)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_5": {
+            "shortcuts": "Ctrl+Shift+5",
+            "toolTip": " (Ctrl+Shift+5)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_6": {
+            "shortcuts": "Ctrl+Shift+6",
+            "toolTip": " (Ctrl+Shift+6)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_7": {
+            "shortcuts": "Ctrl+Shift+7",
+            "toolTip": " (Ctrl+Shift+7)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_8": {
+            "shortcuts": "Ctrl+Shift+8",
+            "toolTip": " (Ctrl+Shift+8)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_9": {
+            "shortcuts": "Ctrl+Shift+9",
+            "toolTip": " (Ctrl+Shift+9)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "execute_script_10": {
+            "shortcuts": "Ctrl+Shift+0",
+            "toolTip": " (Ctrl+Shift+0)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "recorder_record_toggle": {
+            "shortcuts": "",
+            "toolTip": "Record Timelapse",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "recorder_export": {
+            "shortcuts": "",
+            "toolTip": "Export Timelapse...",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "BrushesAndStuff": {
+            "shortcuts": "",
+            "toolTip": "Hide Brushes and Stuff Toolbar",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "editToolBar": {
+            "shortcuts": "",
+            "toolTip": "Hide Edit Toolbar",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "mainToolBar": {
+            "shortcuts": "",
+            "toolTip": "Show File Toolbar",
+            "statusTip": "",
+            "checkable": true,
+            "checked": true
+        },
+        "PluginDevToolsActionOpenAsDocker": {
+            "shortcuts": "",
+            "toolTip": "Open as Docker",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "PluginDevToolsActionOpenAsDialog": {
+            "shortcuts": "",
+            "toolTip": "Open as Dialog",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "PluginDevToolsActionPluginGen": {
+            "shortcuts": "",
+            "toolTip": "Create your own new plugin generator",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "PluginDevToolsToggleOnOff": {
+            "shortcuts": "F12",
+            "toolTip": " (F12)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "view_zoom": {
+            "shortcuts": "",
+            "toolTip": "Zoom",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_color_selector": {
+            "shortcuts": "Shift+I",
+            "toolTip": "Show color selector (Shift+I)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_mypaint_shade_selector": {
+            "shortcuts": "Shift+M",
+            "toolTip": "Show MyPaint shade selector (Shift+M)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_minimal_shade_selector": {
+            "shortcuts": "Shift+N",
+            "toolTip": "Show minimal shade selector (Shift+N)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_color_history": {
+            "shortcuts": "H",
+            "toolTip": "Show color history (H)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "show_common_colors": {
+            "shortcuts": "U",
+            "toolTip": "Show common colors (U)",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "update_composition": {
+            "shortcuts": "",
+            "toolTip": "Update Composition",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        },
+        "rename_composition": {
+            "shortcuts": "",
+            "toolTip": "Rename Composition",
+            "statusTip": "",
+            "checkable": false,
+            "checked": false
+        }
+    }
+}
