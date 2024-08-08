@@ -1,12 +1,6 @@
 import { useKritaApi } from "@renderer/hooks/useKritaHttpApi"
+import { fromKritaCoord, toKritaCoord } from "@renderer/util"
 import { useCallback, useEffect, useMemo, useState } from "react"
-
-function toKritaCoord(x: number, electronZoomFactor: number, kritaScalingFactor: number) {
-  return Math.trunc(x * electronZoomFactor / kritaScalingFactor)
-}
-function fromKritaCoord(x: number, electronZoomFactor: number, kritaScalingFactor: number) {
-  return Math.trunc(x / electronZoomFactor * kritaScalingFactor)
-}
 
 function useKritaDocker(objectName: string) {
   const setDockerState = useKritaApi('docker/set-state')

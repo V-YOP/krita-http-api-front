@@ -85,7 +85,6 @@ function BrushButton({ displayDocker, displayDockerChanged }: BrushButtonParam) 
           <Image pos='absolute' transform={'translate(40%, 40%)'} bottom={0} right={0} h={"50%"} src={eraserIcon}></Image>
         }
       </Button>
-
     </>
   )
 }

@@ -38,7 +38,9 @@ export const TOOL_ICONS = {
 } as const
 
 export const ICONS = {
-    ERASER_MODE: 'draw-eraser'
+    ERASER_MODE: 'draw-eraser',
+    TOOL_OPTION_DOCKER: 'configure',
+    LAYER_DOCKER: 'duplicatelayer',
 }
 
 export const TOOLS = Object.keys(TOOL_ICONS) as ToolName[]

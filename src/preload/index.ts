@@ -22,3 +22,6 @@ window['api'].hideMe = () => {
 window['api'].getZoomFactor = async () => {
     return webFrame.getZoomFactor() * await ipcRenderer.invoke('get-screen-zoom-factor')
 }
+window['api'].getTodayDrawSeconds = () => {
+    return ipcRenderer.invoke('get-today-draw-seconds')
+}

@@ -3,6 +3,8 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
+
+;import { getTodaySeconds } from './readKraHistory';
 ((async () => {
   const { activeWindow } = await import('active-win')
   console.log(activeWindow)
@@ -48,6 +50,10 @@ import icon from '../../resources/icon.png?asset'
     mainWindow.setVisibleOnAllWorkspaces(true);
     mainWindow.setFullScreenable(false);
   
+    ipcMain.handle('get-today-draw-seconds', () => {
+      return getTodaySeconds()
+    })
+
     ipcMain.handle('get-screen-zoom-factor', () => {
       return screen.getPrimaryDisplay().scaleFactor
     })

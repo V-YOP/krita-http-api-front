@@ -8,6 +8,19 @@ export type State = {
     canvasOnly: boolean,
     brushPreset: string,
     theme: string,
+    editTime: number,
+    brushSize: number,
+    brushRotation: number,
+    blendingMode: string,
+    gradient: string,
+    pattern: string,
+    opacity: number,
+    flow: number,
+    foreground: [number, number, number, number],
+    background: [number, number, number, number],
+    fileName: string | null,
+    zoomFactor: number,
+    withSelection: boolean,
 }
 
 export type SetDockerStateParam = {
@@ -19,7 +32,28 @@ export type SetDockerStateParam = {
     withHeader?: boolean,
 }
 
+export type ViewState = {
+    viewId: number,
+    display: 'MAXIMIZED' | 'MINIMIZED' | 'NORMAL',
+    docId: string,
+    isFile: boolean,
+    filename: string,
+    frameless: boolean,
+    stayOnTop: boolean,
+    viewFrameSize: [number, number],
+    viewFramePos: [number, number],
+    viewClientSize: [number, number],
+    viewClientPos: [number, number],
+    canvasRotation: number,
+    canvasScale: number, 
+    canvasPan: [number, number],
+    canvasToImageMetrix: [number, number, number, number, number, number, number, number, number]
+    areaSize: [number, number],
+    areaPos: [number, number],
+}
+
 export function useKritaApi(code: 'icon'): (param: {iconName: string}) => Promise<KritaHttpApiResponse<string>>;
+export function useKritaApi(code: 'view/list'): (param: '') => Promise<KritaHttpApiResponse<ViewState[]>>;
 export function useKritaApi(code: 'resource-icon'): (param: {resourceName: string, resourceType: string}) => Promise<KritaHttpApiResponse<string>>;
 export function useKritaApi(code: 'state/set'): (param: Partial<State>) => Promise<KritaHttpApiResponse<void>>;
 export function useKritaApi(code: 'state/get'): (param: '') => Promise<KritaHttpApiResponse<State>>;

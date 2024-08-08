@@ -1,12 +1,12 @@
 import { State, useKritaApi } from "@renderer/hooks/useKritaHttpApi"
 import { generateUUID, sleep } from "@renderer/util"
-import React, { useCallback, useEffect, useRef } from "react"
+import React, { useCallback, useEffect, useMemo, useRef } from "react"
 import { useState } from "react"
 
 
 
 export const DEFAULT_STATE: State = {
-  tool: '', eraserMode: false, canvasOnly: false, brushPreset: '', theme: '',
+  tool: '', eraserMode: false, canvasOnly: false, brushPreset: '', theme: '', editTime: 0,
 }
 
 export const StateCtx = React.createContext<State>(DEFAULT_STATE)
@@ -88,10 +88,18 @@ export function KritaProvider({ children }: { children: React.ReactNode }) {
     }
   }, [getAction])
 
+  const realChildren = useMemo(() => {
+    window.api.setIgnoreMouseEvents(true, {forward: true})
+    if (state.canvasOnly) {
+      return children
+    }
+    return void 0
+  }, [state.canvasOnly, children])
+
   return (
   <LatestActionCtx.Provider value={[connect, disconnect]}>
     <StateCtx.Provider value={state}>
-        {children}
+        {realChildren}
     </StateCtx.Provider>
   </LatestActionCtx.Provider>)
 }

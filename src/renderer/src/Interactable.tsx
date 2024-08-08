@@ -5,11 +5,17 @@ function Interactable({ children, style = {} }: { children: React.ReactNode, sty
 
   useEffect(() => {
     // TODO 如果有性能问题，节流，或者维护当前状态
-    const onMouseEnter = (): void => {
+    const onMouseEnter = (e?: MouseEvent): void => {
       window.api.setIgnoreMouseEvents(false, { forward: true })
+      if (e) {
+        e.stopPropagation()
+      }
     }
-    const onMouseLeave = (): void => {
+    const onMouseLeave = (e?: MouseEvent): void => {
       window.api.setIgnoreMouseEvents(true, { forward: true })
+      if (e) {
+        e.stopPropagation()
+      }
     }
     
     const elem = ref.current

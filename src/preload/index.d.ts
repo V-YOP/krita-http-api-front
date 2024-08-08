@@ -12,7 +12,8 @@ declare global {
       activeWindow: typeof activeWindow,
       showMe(): void,
       hideMe(): void,
-      getZoomFactor: () => Promise<number>
+      getZoomFactor: () => Promise<number>,
+      getTodayDrawSeconds: () => Promise<number>,
     },
   }
 }
