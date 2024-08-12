@@ -10,7 +10,6 @@ export function useKritaState(): [state: State, setState: (state: Partial<State>
   const [lastState, setLastState] = useState(DEFAULT_STATE);
   useEffect(() => {
     return () => {
-      console.log('setLastState To ', state);
       setLastState(state);
     };
   }, [state]);

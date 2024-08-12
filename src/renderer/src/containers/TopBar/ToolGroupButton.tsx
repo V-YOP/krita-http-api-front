@@ -3,8 +3,8 @@ import { ACTIVE_BG, BG, TOOL_ICONS, ToolName } from "@renderer/constants"
 import BrushButton from "@renderer/containers/TopBar/BrushButton"
 import { useKritaIcons } from "@renderer/hooks/useKritaIcon"
 import { useKritaState } from "@renderer/hooks/useKritaState"
-import Interactable from "@renderer/Interactable"
-import { useCallback, useEffect, useMemo, useState } from "react"
+import Interactable from "@renderer/components/Interactable"
+import { memo, useCallback, useEffect, useMemo, useState } from "react"
 
 type ToolGroupButtonParam = {
 	tools: ToolName[],
@@ -48,8 +48,6 @@ function ToolGroupButton({ tools, displayGroup, displayGroupChanged }: ToolGroup
 		// 否则，显示第一个工具
 		return 0
 	}, [checkedToolIndex, lastCheckedToolIndex])
-
-
 
 	const onMainButtonClick = useCallback(() => {
 		// 如果当前已经checked了，toggle 悬浮窗
@@ -100,4 +98,4 @@ function ToolGroupButton({ tools, displayGroup, displayGroupChanged }: ToolGroup
 }
 
 
-export default ToolGroupButton
+export default memo(ToolGroupButton)

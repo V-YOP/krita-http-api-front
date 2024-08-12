@@ -4,9 +4,9 @@ import React, { useCallback, useEffect, useMemo, useRef } from "react"
 import { useState } from "react"
 
 
-
+// @ts-ignore
 export const DEFAULT_STATE: State = {
-  tool: '', eraserMode: false, canvasOnly: false, brushPreset: '', theme: '', editTime: 0,
+  tool: '', eraserMode: false, canvasOnly: false, brushPreset: '', theme: '', editTime: 0, picResolution: [0,0], brushSize: 0,
 }
 
 export const StateCtx = React.createContext<State>(DEFAULT_STATE)
@@ -59,7 +59,6 @@ export function KritaProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   useEffect(() => {
-    console.log('register getAction')
     let stopMe = false
 
     ;((async () => {

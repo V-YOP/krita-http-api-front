@@ -1,8 +1,7 @@
-import { useEffect, useRef } from "react"
+import { memo, useEffect, useRef } from "react"
 
 function Interactable({ children, style = {} }: { children: React.ReactNode, style?: React.CSSProperties }): JSX.Element {
   const ref = useRef(null as unknown as HTMLDivElement)
-
   useEffect(() => {
     // TODO 如果有性能问题，节流，或者维护当前状态
     const onMouseEnter = (e?: MouseEvent): void => {
@@ -36,7 +35,7 @@ function Interactable({ children, style = {} }: { children: React.ReactNode, sty
 }
 
 
-export default Interactable
+export default memo(Interactable)
 
 
 

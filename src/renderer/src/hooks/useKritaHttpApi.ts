@@ -21,6 +21,7 @@ export type State = {
     fileName: string | null,
     zoomFactor: number,
     withSelection: boolean,
+    picResolution: [number, number],
 }
 
 export type SetDockerStateParam = {

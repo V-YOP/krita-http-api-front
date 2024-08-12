@@ -3,7 +3,7 @@ import { ACTIVE_BG, ICONS, TOOL_ICONS } from "@renderer/constants";
 import useKritaDocker from "@renderer/hooks/useKritaDocker";
 import { useKritaIcon } from "@renderer/hooks/useKritaIcon";
 import { useKritaLatestAction } from "@renderer/hooks/useKritaLatestAction";
-import useKritaResourceIcon from "@renderer/hooks/useKritaResourceIcon";
+import {useKritaResourceIcon} from "@renderer/hooks/useKritaResourceIcon";
 import { useKritaState } from "@renderer/hooks/useKritaState";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
@@ -15,8 +15,6 @@ type BrushButtonParam = {
 function BrushButton({ displayDocker, displayDockerChanged }: BrushButtonParam) {
   const [state, setState, lastState] = useKritaState()
   const brushDocker = useKritaDocker('PresetDocker')
-
-
   const eraserIcon = useKritaIcon(ICONS['ERASER_MODE'])
   const brushIcon = useKritaIcon(TOOL_ICONS['KritaShape/KisToolBrush'])
   const brushResourceIcon = useKritaResourceIcon('preset', state.brushPreset)

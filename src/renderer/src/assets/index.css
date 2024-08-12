@@ -1,4 +1,5 @@
 html, body {
     background: transparent !important;
     color-scheme: unset !important;
+    user-select: none; /* 禁用文本选择 */
 }
