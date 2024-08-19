@@ -28,7 +28,7 @@ import icon from '../../resources/icon.png?asset'
   
       frame: false,
       skipTaskbar: true,
-  
+      resizable: false,
       alwaysOnTop: true,
       focusable: false,
   

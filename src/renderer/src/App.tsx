@@ -1,11 +1,7 @@
 
-import { useEffect, useMemo, useState } from 'react'
-import Interactable from '@renderer/Interactable'
-import { useKritaStateApi, useKritaApi, ViewState } from '@renderer/hooks/useKritaHttpApi'
-import { Card, CardBody, useColorMode } from '@chakra-ui/react'
+import { useEffect } from 'react'
+import { useColorMode } from '@chakra-ui/react'
 import TopBar from '@renderer/containers/TopBar'
-import { fromKritaCoord, sleep } from '@renderer/util'
-import { createPortal } from 'react-dom'
 import TopStatusBar from '@renderer/containers/TopStatusBar'
 
 
